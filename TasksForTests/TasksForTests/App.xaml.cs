@@ -11,7 +11,7 @@ namespace TasksForTests
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ConverterNumber();
         }
 
         protected override void OnStart()

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TasksForTests.ConverterNumber"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TasksForTests">
+
+    <StackLayout>
+        <Label HorizontalOptions="Center" Text="Number systems converter" />
+        <Entry
+            x:Name="EntryDec"
+            Keyboard="Numeric"
+            Placeholder="Decimal"
+            TextChanged="EntryDecChanged" />
+        <Entry
+            x:Name="EntryHex"
+            Placeholder="Hex"
+            TextChanged="EntryHexChanged" />
+        <Entry
+            x:Name="EntryOct"
+            Keyboard="Numeric"
+            Placeholder="Octal"
+            TextChanged="EntryOctChanged" />
+        <Entry
+            x:Name="EntryBin"
+            Keyboard="Numeric"
+            Placeholder="Binary"
+            TextChanged="EntryBinChanged" />
+    </StackLayout>
+</ContentPage>

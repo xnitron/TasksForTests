@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TasksForTests.GameOfFifteen"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <Button Clicked="NewGame" Text="NewGame" />
+            </StackLayout>
+            <Grid x:Name="MarkUp">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button
+                    x:Name="Btn0"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="0"/>
+                <Button
+                    x:Name="Btn1"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="1"/>
+                <Button
+                    x:Name="Btn2"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="2"/>
+                <Button
+                    x:Name="Btn3"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="3"/>
+                <Button
+                    x:Name="Btn4"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="4"/>
+                <Button
+                    x:Name="Btn5"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="5"/>
+                <Button
+                    x:Name="Btn6"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="6"/>
+                <Button
+                    x:Name="Btn7"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="7"/>
+                <Button
+                    x:Name="Btn8"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="8"/>
+                <Button
+                    x:Name="Btn9"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="9"/>
+                <Button
+                    x:Name="Btn10"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="10"/>
+                <Button
+                    x:Name="Btn11"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="11"/>
+                <Button
+                    x:Name="Btn12"
+                    Grid.Row="3"
+                    Grid.Column="0" 
+                    CommandParameter="12"/>
+                <Button
+                    x:Name="Btn13"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Clicked="Btn0_Clicked" 
+                    CommandParameter="13"/>
+                <Button
+                    x:Name="Btn14"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="14" />
+                <Button
+                    x:Name="Btn15"
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="15" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

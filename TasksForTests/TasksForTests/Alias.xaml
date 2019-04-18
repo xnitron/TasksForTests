@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TasksForTests.Alias"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                FontSize="Large"
+                HorizontalOptions="CenterAndExpand"
+                Text="Alias" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Clicked="NewGame" Text="New game" />
+                <Label x:Name="Points" VerticalTextAlignment="Center" />
+                <Label
+                    x:Name="Timer"
+                    HorizontalOptions="End"
+                    VerticalTextAlignment="Center" />
+            </StackLayout>
+            <StackLayout>
+                <Button
+                    Clicked="GuessedWord"
+                    IsVisible="{Binding VisibleBtn}"
+                    Text="Next"
+                    VerticalOptions="Center" />
+                <Label
+                    x:Name="WordForGuess"
+                    FontSize="Large"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand" />
+                <Button
+                    Clicked="SkippedWord"
+                    IsVisible="{Binding VisibleBtn}"
+                    Text="Skip"
+                    VerticalOptions="Center" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
