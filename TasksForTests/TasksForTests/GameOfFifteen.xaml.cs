@@ -25,10 +25,12 @@ namespace TasksForTests
         private void NewGame(object sender, EventArgs e)
         {
             game.Start();
+
             for (int i = 0; i < 3; i++)
             {
                 game.RandomShift();
             }
+
             Refresh();
         }
 

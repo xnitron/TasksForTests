@@ -70,6 +70,7 @@ namespace TasksForTests
                    }
 
                    VisibleBtn = false;
+
                    return false;
                });
         }

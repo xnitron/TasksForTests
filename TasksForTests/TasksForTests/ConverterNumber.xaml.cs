@@ -68,7 +68,6 @@ namespace TasksForTests
             }
         }
 
-
         private void SystemsNumberToSring(long number)
         {
             EntryDec.Text = Convert.ToString(number, 10);
