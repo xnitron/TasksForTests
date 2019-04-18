@@ -26,85 +26,86 @@
                     x:Name="Btn0"
                     Grid.Row="0"
                     Grid.Column="0"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="0"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="0" />
                 <Button
                     x:Name="Btn1"
                     Grid.Row="0"
                     Grid.Column="1"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="1"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="1" />
                 <Button
                     x:Name="Btn2"
                     Grid.Row="0"
                     Grid.Column="2"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="2"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="2" />
                 <Button
                     x:Name="Btn3"
                     Grid.Row="0"
                     Grid.Column="3"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="3"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="3" />
                 <Button
                     x:Name="Btn4"
                     Grid.Row="1"
                     Grid.Column="0"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="4"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="4" />
                 <Button
                     x:Name="Btn5"
                     Grid.Row="1"
                     Grid.Column="1"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="5"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="5" />
                 <Button
                     x:Name="Btn6"
                     Grid.Row="1"
                     Grid.Column="2"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="6"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="6" />
                 <Button
                     x:Name="Btn7"
                     Grid.Row="1"
                     Grid.Column="3"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="7"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="7" />
                 <Button
                     x:Name="Btn8"
                     Grid.Row="2"
                     Grid.Column="0"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="8"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="8" />
                 <Button
                     x:Name="Btn9"
                     Grid.Row="2"
                     Grid.Column="1"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="9"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="9" />
                 <Button
                     x:Name="Btn10"
                     Grid.Row="2"
                     Grid.Column="2"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="10"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="10" />
                 <Button
                     x:Name="Btn11"
                     Grid.Row="2"
                     Grid.Column="3"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="11"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="11" />
                 <Button
                     x:Name="Btn12"
                     Grid.Row="3"
-                    Grid.Column="0" 
-                    CommandParameter="12"/>
+                    Grid.Column="0"
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="12" />
                 <Button
                     x:Name="Btn13"
                     Grid.Row="3"
                     Grid.Column="1"
-                    Clicked="Btn0_Clicked" 
-                    CommandParameter="13"/>
+                    Clicked="Btn0_Clicked"
+                    CommandParameter="13" />
                 <Button
                     x:Name="Btn14"
                     Grid.Row="3"

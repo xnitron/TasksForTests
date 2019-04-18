@@ -11,7 +11,7 @@ namespace TasksForTests
         {
             InitializeComponent();
 
-            MainPage = new ConverterNumber();
+            MainPage = new GameOfFifteen();
         }
 
         protected override void OnStart()
